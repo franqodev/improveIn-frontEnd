@@ -1,0 +1,180 @@
+html * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Montserrat", sans-serif;
+}
+
+.header {
+   width: 100%;
+   height: 10vh;
+   background-color: white;
+   display: flex;
+   align-items: center;
+   padding: 0 2rem;
+   justify-content: space-around;
+}
+
+.footer {
+   width: 100%;
+   height: 10vh;
+   background-color: rgb(0, 0, 0);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: rgb(255, 255, 255);
+   font-size: 20px;
+}
+
+.logo {
+   height: 2rem;
+}
+
+.nameLog {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.container {
+   min-height: 80vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   background-color: rgb(192, 192, 192);
+}
+
+.input,
+.button,
+.button2 {
+   padding: 0.7rem 3rem;
+   margin: 1rem 0;
+   font-size: 20px;
+}
+
+.button {
+   background-color: green;
+   border: 3px solid cyan;
+   color: cyan;
+   cursor: pointer;
+}
+
+.button:hover {
+   background-color: rgb(1, 165, 1);
+   border: 3px solid cyan;
+   color: cyan;
+}
+
+.button2 {
+   background-color: brown;
+   border: 3px solid red;
+   color: rgb(255, 255, 255);
+   cursor: pointer;
+}
+
+.button2:hover {
+   background-color: rgb(211, 74, 74);
+   border: 3px solid red;
+   color: rgb(255, 255, 255);
+}
+
+.bands {
+   display: flex;
+   padding: 3rem;
+   flex-wrap: wrap;
+   justify-content: center;
+   width: 100%;
+}
+
+.cardBand {
+   color: rgb(255, 255, 255);
+   background-color: rgb(51, 134, 230);
+   margin: 1rem;
+   padding: 1.5rem;
+   width: 22%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   border-radius: 12px;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.bandName {
+   margin-bottom: 10px;
+   font-size: 600;
+}
+
+.divider {
+   height: 2px;
+   width: 100%;
+   background-color: white;
+   border: none;
+   margin-bottom: 1rem;
+}
+
+.pb {
+   padding-bottom: 1rem;
+}
+
+.flex {
+   display: flex;
+   width: 100%;
+   justify-content: space-around;
+}
+
+.containerBand {
+   color: rgb(255, 255, 255);
+   background-color: rgb(51, 134, 230);
+   margin: 1rem;
+   padding: 1.5rem;
+   width: 50%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   border-radius: 12px;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.li {
+   margin-left: 2rem;
+   margin-bottom: 10px;
+}
+
+.select {
+   border: none;
+   padding: 0.4rem 1rem;
+   margin-top: 1.5rem;
+   font-size: 15px;
+   outline: none;
+   color: white;
+   background-color: rgb(46, 45, 45);
+}
+
+.moreI {
+   background-color: rgb(44, 16, 199);
+   border: 3px solid rgb(255, 255, 255);
+   color: rgb(255, 255, 255);
+   cursor: pointer;
+   padding: 0.5rem 2rem;
+   margin: 1rem 0;
+   font-size: 16px;
+}
+
+.moreI:hover {
+   background-color: rgb(64, 31, 252);
+}
+
+.back {
+   background-color: rgb(23, 160, 10);
+   border: 3px solid rgb(255, 255, 255);
+   color: rgb(255, 255, 255);
+   cursor: pointer;
+   padding: 0.5rem 2rem;
+   margin: 1rem 0;
+   font-size: 16px;
+}
+
+.back:hover {
+   background-color: rgb(29, 194, 14);
+}
